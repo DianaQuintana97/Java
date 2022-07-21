@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+.uno{
+	display: flex;
+}
+.dos{
+	flex: 33.33%;
+	padding: 5px;
+}
+img{
+	width:30%;
+}
+
+.bueno{
+	border: 15px solid; 
+	border-color: #ff8000;
+}
