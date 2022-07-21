@@ -1,0 +1,45 @@
+/*
+Autor: Lorena Gómez Díaz 
+*/
+
+.contenedor{
+	 max-width: 1200px;
+    width: 90%;
+    margin: 10px auto;
+   background:#F7F7F7;
+    text-align: center;
+    border: 3px solid #000000;
+    /*background-size: cover;*/
+	
+}
+
+img{
+	max-width:70%;
+	margin: 10px 0;
+
+}
+.contImagenes{
+	 display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.imagen{
+	  flex-basis: calc(33.3% - 2rem);
+}
+
+.imagen.premioGanador{
+	  border: 5px solid #FF0000;
+}
+
+.titulo{
+	color: #ff0080;
+	font-weight: bold;
+	text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
